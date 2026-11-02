@@ -1,0 +1,69 @@
+body {
+    background-color: #857DFA;
+}
+
+input {
+    width: 100%;
+    height: 70px;
+    font-size: 32px;
+    text-align: right;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.kotak-besar {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    gap: 5px;
+    margin-left: 17%;
+    margin-top: 90px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.operator {
+    background-color: #5a52d5;
+    color: white;
+}
+
+.HapusSemua {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.BackSpace {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.LebarDua {
+    grid-column: span 3;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #5a52d5;
+    color: white;
+}
+
+.HitungNilai {
+    grid-column: span 4;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #5a52d5;
+    font-weight: bold;
+    font-size: 24px;
+}
